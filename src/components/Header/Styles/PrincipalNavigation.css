@@ -1,0 +1,23 @@
+
+.principal-navigation nav {
+    display: flex;
+    align-items: center;
+}
+.principal-navigation nav ul {
+    gap: 20px;
+    display: flex;
+    list-style: none;
+}
+.principal-navigation nav #logo{
+    margin-right: auto;
+}
+.principal-navigation nav ul li a{
+    color: rgb(111, 111, 253);
+    text-decoration: none; 
+}
+
+.principal-navigation nav ul li a:hover{
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s;
+}

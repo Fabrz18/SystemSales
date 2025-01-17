@@ -1,0 +1,43 @@
+.PrincipalItemsLocation {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.PrincipalItemsLocation .type-search {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.PrincipalItemsLocation .type-search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.PrincipalItemsLocation .type-search button{
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.PrincipalItemsLocation .type-search button:hover{
+    background-color: #f4f4f4b5;
+}
+
+.PrincipalItemsLocation .card-body{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    vertical-align: top;
+    gap: 10px;
+}
